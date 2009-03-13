@@ -1,0 +1,527 @@
+/*
+Cores utilizadas no site:
+
+Magenta	Claro:					    #f450a5;
+Magenta Médio:					    #dd137b;
+Magenta Escuro:					    #cb096d;
+
+Preto:							#000;
+Cinza Claro:					#efeeee;
+Cinza Médio:					#dededd;
+Cinza Escuro:					#666;
+
+Vermelho (erro)					#b01444;
+
+
+
+
+
+Color global attributes */
+
+html {
+	background:           #dededd url(../images/bg.gif) repeat-x top left;
+}
+html {
+  background:             #000;
+}
+  
+html * {
+  color:				  #000;
+}
+html *, #main_content h1 {
+  color:                  #CCC;
+}
+
+body {
+	background:           url(../images/bg-bottom.gif) repeat-x bottom left;  
+}
+body {
+  background:             none;
+}
+
+a {
+  color:                  #dd137b;
+}
+
+a:visited {
+  color:                  #dd137b;
+}
+
+a:focus, a:hover, a:active {
+  color:                  #f450a5;
+}
+
+#header h1#logo_print {
+  display:                none;
+  color:                  #000;
+}
+
+#header h1#logo_screen {
+  color:                  #dd137b;
+}
+
+h1 {
+  color:                  #000;
+}
+
+h2 {
+  color:                  #666;
+}
+
+h3, h3 a, h3 a:visited {
+  color:                  #dd137b;
+}
+
+h4, h4 a, h4 a:visited {
+  color:                  #666;
+}
+
+h4 a:focus, h4 a:hover, h4 a:active {
+  text-decoration:    	  underline;
+}
+
+/* /Color global attributes */
+
+
+/* Header tabbed menu */
+#header h1 img {
+  	color:                  #908e8d;
+}
+
+#header li a, #header li a:visited, #header li a:active {
+	color:					#fff;
+}
+
+#header li a:hover, #header li.current a, #header li.current a:visited {	
+	color:                  #000;
+	background:             #DD137B no-repeat center;
+}
+/* /Header tabbed menu */
+
+
+/* Main content top segment */
+#subnavigation {
+  background:             #FDFEFD;
+}
+#subnavigation a:link {
+  color:                  #555;
+}
+#subnavigation a:hover {
+  color:                  #DC177B;
+}
+
+#go_back_to_thumbnails {
+	background:             transparent url(../images/arrow_left.gif) no-repeat 0px;
+}
+
+#go_back_to_thumbnails:hover {
+	background:             transparent url(../images/arrow_left_hover.gif) no-repeat 0px;
+}
+
+#go_to_gallery {
+	background:             transparent url(../images/gallery_album.gif) no-repeat left center;
+}
+
+#see_data_sheet {
+	background:             transparent url(../images/arrow_down.gif) no-repeat left center;
+}
+
+#see_data_sheet:hover {
+	background:             transparent url(../images/arrow_down_hover.gif) no-repeat left center;
+}
+
+/* /Main content top segment */
+
+
+/* Thumbnails */
+
+/* Vertically centering images 
+(conditional comments for IE required) */
+ul#thumbnails li div a {
+	background:             url(../images/thumb_box.png);
+}
+ul#thumbnails li div a {
+  background:             #E4E4E4;
+}
+
+ul#thumbnails li div a:visited {
+	background:             url(../images/thumb_box_visited.png);
+}
+ul#thumbnails li div a:visited {
+  background:             #999;
+}
+ul#thumbnails li div a:hover {
+	background:             url(../images/thumb_box_hover.png);
+}
+ul#thumbnails li div a:hover {
+  background:             #F1F1F1;
+}
+
+
+ul#thumbnails a img, 
+#thumbnails label {
+	color:                  #908e8d;
+}
+
+ul#thumbnails a:hover img, 
+ul#thumbnails a:hover label {
+	color:                  #FFF;
+}
+/* /Thumbnails */
+
+
+/* Summary */
+#summary, #about_us, #data_sheet, body.application #main_content ul, #picture_description {
+	background-color:		#efeeee;
+}
+/* /Summary */
+
+
+/* Link to Selection */
+#go_to_selection a {
+	background:             url(../images/select_pictures.gif) no-repeat top left;
+}
+#go_to_selection a:hover {
+	background:             url(../images/select_pictures_hover.gif) no-repeat top left;
+}
+/* /Link to Selection */
+
+
+/* Paging */
+.pages {
+  background-color:		#efeeee;
+}
+.pages {
+  background:             #CCC;
+}
+
+
+.pages a:visited {
+  color:                  #908e8d;
+}
+
+.pages a:hover {
+  color:                  #f450a5;
+}
+
+.pages a.previous {
+  background:             url(../images/arrow_left.gif) no-repeat left;
+  color:                  #cb096d;
+}
+
+.pages a.previous:hover {
+  background:             url(../images/arrow_left_hover.gif) no-repeat left;
+  color:                  #f450a5;
+}
+.pages a.next {
+  background:             url(../images/arrow_right.gif) no-repeat right;
+  color:                  #cb096d;
+}
+.pages a.next:hover {
+  background:             url(../images/arrow_right_hover.gif) no-repeat right;
+  color:                  #f450a5;	
+}
+
+
+
+.pages strong {
+  color:                  #cb096d;
+}
+/* /Paging */
+
+
+/* Data sheet */
+#data_sheet li {
+	color:                  #666;	
+}
+
+#data_sheet h2 {
+	color:                  #000;	
+}
+
+#data_sheet * {
+  color:                  #555;
+}
+
+#data_sheet a:link {
+  color:                  #DC177B;
+}
+/* /Data sheet */
+
+
+/* Big picture, big video */
+#big_picture a, #big_video a {
+  color:                  #000;
+}
+
+#big_picture a#previous span, #big_video a#previous span {
+	background:      url(../images/arrow_previous.gif) no-repeat center right;
+}
+#big_picture a#previous:hover span, #big_video a#previous:hover span {
+	background:      url(../images/arrow_previous_hover.gif) no-repeat center right;
+}
+
+#big_picture #next span, #big_video #next span {
+	background:      url(../images/arrow_next.gif) no-repeat center left;
+
+}
+#big_picture a#next:hover span, #big_video a#next:hover span {
+	background:      url(../images/arrow_next_hover.gif) no-repeat center left;
+}
+
+#big_picture img {
+  	color:                  #ebebeb;
+	border-color:           #ebebeb;
+}
+
+#big_picture label {
+  border:				  1px solid #ebebeb;
+  background:             #fff;
+}
+
+#big_video label span {
+  background:             none;
+}
+/* /Big picture, big video */
+
+
+/* Selection */
+body#selection #selection_size, 
+body#selection #selection_size label {
+	color:                  #DEDEDD;
+}
+body#selection #selection_size {
+  color:                  #000;
+}
+
+#selection_size label {
+	color:				        	#000;	
+}
+
+
+#cart_items {
+	background:             #fff;
+	border-color:           #f5f5f4;
+}
+
+#cart_items.instructions {
+	background:             #fff url(../images/selection_instructions.gif) no-repeat center center;	
+}
+
+#all_pictures li label, #all_pictures li a, 
+#cart_items label, #cart_items a, 
+#selected_pictures label, #selected_pictures a {
+	background-color:       #fff;
+}
+
+#all_pictures label, #cart_items label, 
+#selected_pictures label {
+  	color:                  #908e8d;	
+}
+
+#all_pictures a:hover, 
+#cart_items a:hover, 
+#selected_pictures a:hover {
+	background:             transparent url(../images/magnifying_glass.gif) no-repeat center center;
+}
+
+#selected_pictures a.remove_picture {
+	background:             none;
+}
+
+body#selection #selection_size label {
+	background-color:             #fff;
+	border:					2px solid #dededd;
+	color:					#000;
+}
+
+body#selection #first.go_to_checkout {
+	background:             transparent url(../images/shopping_cart.gif) no-repeat right center;
+}
+
+body#selection #second.go_to_checkout {
+	background:             transparent url(../images/shopping_cart.gif) no-repeat right center;
+}
+
+.moved_to_cart {
+  opacity:                .3;
+}
+
+a:hover label, 
+body#checkout #selection_size label, 
+body#pictures_sent #selection_size label, 
+#search_result_count label {
+  color:                  #DC177B;
+}
+/* /Selection */
+
+
+/* Forms (contact, checkout, search) */
+label {
+	color:                  #908e8d;
+}
+
+input, textarea {
+	color:                  #666;
+	border-color:           #f5f5f4;
+}
+
+#summary *, .pages a, 
+input, textarea, 
+#big_picture label {
+  color:                                                        #333;
+}
+
+input:hover, textarea:hover {
+	border-color:           #f450a5;
+}
+
+input:active, input:focus,
+textarea:active, textarea:focus {
+	border-color:           #f450a5;
+}
+
+button {
+  	color:                  #fff;
+	background-color:       #dd137b;
+	cursor:					pointer;
+}
+button:hover {
+	background-color:           #f450a5;
+}
+
+.submitting {
+	color:                  #fff;
+	background:             #908e8d url(../images/spinner_form.gif) no-repeat 95% center;
+}
+
+.submitting:hover {
+	background-color:             #908e8d;
+}
+
+.email_field_with_errors {
+	border-color:       #b01444;
+}
+
+#submit_error {
+	background-color:       #b01444;
+}
+
+#submit_success {
+	background-color:       #cb096d;
+}
+
+#submit_error, #submit_success {
+  color:                  #fff;
+}
+
+/* Specific for global search form */
+#global_search {
+	background:             url(../images/search.gif) no-repeat left center;
+}
+
+#global_search fieldset {
+	margin-top:				2px;
+	
+}
+
+#global_search #query {
+	color:                  #000;
+	border:					none;
+}
+
+#global_search #query:hover,#global_search #query:active,#global_search #query:focus {
+	color:                  #666;
+	border:					none;
+}
+/* /Forms (contact, checkout, search) */
+
+
+/* Errors (404, 500, timeout, empty search results) */
+body.application #main_content h2 {
+	background:             url(../images/error_404.png) no-repeat center top;
+}
+
+body.application #main_content h3 {
+  color:                  #CB096D;
+}
+
+body#server_error #main_content h2 {
+	background-image:       url(../images/error_500.png);
+}
+
+body#timeout #main_content h2 {
+	background-image:       url(../images/error_timeout.png);
+}
+
+body.application #main_content ul {
+  background:            #000;
+}
+
+span#searched_item {
+	color:                  #000;
+	font-weight:			bold;
+}
+/* /Errors (404, 500, timeout, empty search results) */
+
+
+/* Facebox */
+#facebox {
+	background:             none;
+}
+
+#facebox * {
+	background:             transparent url(../images/facebox_bg.gif) top left;
+}
+#facebox * {
+  background:             #FFF;
+}
+
+#facebox div {
+  border-color:          #DC177B;
+}
+/* /Facebox */
+
+
+/* Footer */
+#footer em{
+	color:					#fff;
+}
+
+#footer p {
+	margin-bottom:          .5em;	
+	color:					#fff;
+}
+
+#footer p strong, #footer h6 {
+	color:					#dededd;
+}
+/* /Footer */
+
+
+
+/* Text */
+.text dt, 
+.text #main_content strong {
+  color:                  #FFF;
+  font-weight:				bold;
+}
+
+.text table * {
+  border-color:           #ebebeb;
+}
+
+.text td span {
+  color:                  #666;
+}
+
+pre {
+  background:             #222;
+  border-color:           #333;
+}
+
+code {
+  color:                  #F5F5F4;
+  background:             #222; 
+}
+/* /Text */
