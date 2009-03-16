@@ -51,6 +51,7 @@ Mais instruções sobre como criar um novo template para o [Be on the Net][] pod
 [e]:  http://www.eclethicaprodutora.com.br "Eclethica Produtora"
 [be]: http://github.com/viniciusteles/beonthenet-estatico/tree/master
 [d]: http://github.com/viniciusteles/beonthenet-estatico/zipball/master
+[lm]: http://www.improveit.com.br/empresa/leandro
 
 [Amora]: http://beonthe.net/galerias/templates/galeria/72157610837685558/1
 [0]: http://beonthe.net/galerias/templates/galeria/72157615304172677/1
