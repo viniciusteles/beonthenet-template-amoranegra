@@ -314,6 +314,10 @@ body.application #main_content h2 {
 body.application #main_content li {
   list-style-type:        disc;
 }
+
+span#searched_item {
+	font-weight:            bold;
+}
   
 #valid_search_suggestions li {
 	list-style:             disc inside;
