@@ -349,7 +349,8 @@ body#selection #second.go_to_checkout {
 
 a:hover label, 
 body#checkout #selection_size label, 
-body#pictures_sent #selection_size label, 
+body#pictures_sent #selection_size label,
+span#searched_item,  
 #search_result_count label {
   color:                  #DC177B;
 }
@@ -455,12 +456,7 @@ body#timeout #main_content h2 {
 }
 
 body.application #main_content ul {
-  background:            #000;
-}
-
-span#searched_item {
-	color:                  #000;
-	font-weight:			bold;
+  background:             #000;
 }
 /* /Errors (404, 500, timeout, empty search results) */
 
