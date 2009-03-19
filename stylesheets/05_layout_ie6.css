@@ -4,10 +4,6 @@ body {
 /*  overflow:               hidden;*/
 }
 
-#header ul {
-	bottom:                 -1px;
-}
-
 #go_to_selection a {
 	padding-top:            20px;
 }

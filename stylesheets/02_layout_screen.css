@@ -1,7 +1,7 @@
 ﻿html * {
 	padding:                0;
 	border:                 none;
-	margin:                 0 auto;
+/*  margin:                 0 auto;*/
 }
 
 label, img  {
@@ -11,8 +11,9 @@ label, img  {
 
 
 body {
+  width:                  960px;
 	padding:                0;
-	margin:                 0;	
+	margin:                 0 auto;
 }
 
 #header, #main_content, #footer {
@@ -25,7 +26,7 @@ body {
  	min-height:			  374px;	
 }
 
-hr, .emtpy, .empty, 
+hr, .empty, 
 #thumbnails li.empty, 
 #selected_pictures li.empty {
 	display:                block;
