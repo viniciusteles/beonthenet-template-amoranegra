@@ -1,7 +1,7 @@
 /* Style sheet with conditions for IE6. */
 body {
   position:               relative;
-	overflow:               hidden;
+/*  overflow:               hidden;*/
 }
 
 #header ul {
