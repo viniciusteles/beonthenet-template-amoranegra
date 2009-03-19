@@ -9,17 +9,12 @@ body {
 }
 
 #go_to_selection a {
-	padding-top:		  20px;
-}
-
-ul#thumbnails {
-  width:				        960px;
-  margin-right:         -60px;	
-  margin-left:          -30px !important;
+	padding-top:                  20px;
 }
 
 ul#thumbnails li {
-  margin:               2.5em 35px 2em 18px;
+  margin-right:           22px;
+  margin-left:            22px;
 }
 
 #all_pictures li, #cart_items li {
