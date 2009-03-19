@@ -53,10 +53,6 @@ label {
 	right:                  -18px;
 }
 
-*:first-child + html #facebox div {
-  padding-right:              18px !important;   /* Mas... pra que serve isso? */
-}
-
 #footer {
  	height:					63px;
  	margin-top:				34px;
