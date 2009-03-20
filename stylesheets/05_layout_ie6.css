@@ -1,8 +1,4 @@
 /* Style sheet with conditions for IE6. */
-body {
-  position:               relative;
-}
-
 #go_to_selection a {
 	padding-top:            20px;
 }
@@ -28,9 +24,6 @@ ul#thumbnails li {
 	line-height:            1.3em;
 }
 
-#cart_items {
-	margin-left:            34.2em;
-}
 #cart_items li, #selected_pictures li {
 	margin:                 1px 2px;
 }
@@ -47,8 +40,8 @@ ul#thumbnails li {
 	right:                  0;
 }
 
-body#selection #selection_size {
-  right:                  38.25em;
+body#selection h2#selection_size {
+  right:                  36.5em;
 }
 
 #checkout #submit_error {

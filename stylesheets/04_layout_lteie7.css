@@ -1,11 +1,15 @@
 /* Style sheet with conditions for Internet Explorer. */
 
+body {
+  position:               relative;
+}
+
 hr {
   margin:                 -8px 0 -7px 0;
 }
 
 #header li {
-	padding:                0;
+/*  padding:                0;*/
 }
 
 
@@ -22,8 +26,17 @@ ul#thumbnails li div img {
 	vertical-align:         middle;
 }
 
+
 .second {
   bottom:                 40px;
+}
+
+#all_pictures {
+  margin-left:            0;
+}
+
+#cart_items {
+  margin-left:            568px;
 }
 
 #all_pictures label, #cart_items label, 
@@ -31,9 +44,8 @@ ul#thumbnails li div img {
 	filter:                 alpha(opacity=70);
 }
 
-
-body#selection #selection_size {
-  right:                  35.0em;
+body#selection h2#selection_size {
+  right:                  34.75em;
 }
 
 .moved_to_cart {
@@ -51,5 +63,5 @@ label {
 
 /* IE7: */
 *:first-child + html #facebox a {
-	right:                  -18px;
+  right:                  -18px;
 }

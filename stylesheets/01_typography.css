@@ -248,6 +248,7 @@ body#selection #selection_size label {
 	font-size:              100%;
 	font-weight:            bold;
 	line-height:            2em;
+	text-align:             right;
 }
 
 body#checkout #selection_size label, 
