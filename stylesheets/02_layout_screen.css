@@ -151,7 +151,8 @@ ul#thumbnails li {
 }
 .pictures#index ul#thumbnails li, 
 .videos#index ul#thumbnails li {
-  margin:                 75px 30px 30px 30px;  
+  margin-top:             75px;
+  margin-bottom:          30px;
 }
 
 ul#thumbnails h3, ul#thumbnails h4 {

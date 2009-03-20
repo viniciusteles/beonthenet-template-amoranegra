@@ -53,9 +53,3 @@ label {
 *:first-child + html #facebox a {
 	right:                  -18px;
 }
-
-#footer {
- 	height:					63px;
- 	margin-top:				34px;
- 	display:				block;
-}
