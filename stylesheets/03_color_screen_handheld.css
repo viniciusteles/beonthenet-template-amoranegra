@@ -129,7 +129,6 @@ h4 a:focus, h4 a:hover, h4 a:active {
 #see_data_sheet:hover {
 	background:             transparent url(../images/arrow_down_hover.gif) no-repeat left center;
 }
-
 /* /Main content top segment */
 
 
@@ -335,12 +334,8 @@ body#selection #selection_size label {
 	color:					#000;
 }
 
-body#selection #first.go_to_checkout {
-	background:             transparent url(../images/shopping_cart.gif) no-repeat right center;
-}
-
-body#selection #second.go_to_checkout {
-	background:             transparent url(../images/shopping_cart.gif) no-repeat right center;
+.go_to_checkout {
+  background:             transparent url(../images/shopping_cart.gif) no-repeat right center;
 }
 
 .moved_to_cart {

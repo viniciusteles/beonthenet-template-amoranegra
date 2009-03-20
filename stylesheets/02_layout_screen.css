@@ -146,19 +146,22 @@ ul#thumbnails {
 ul#thumbnails li {
 	float:                  left;
 	width:                  260px;
-  margin:                 40px 30px 32px 30px;  
+  margin:                 0px 30px 20px 30px;
   position:               relative;
 }
+.pictures#index ul#thumbnails li, 
+.videos#index ul#thumbnails li {
+  margin:                 75px 30px 30px 30px;  
+}
 
-ul#thumbnails h3 {
+ul#thumbnails h3, ul#thumbnails h4 {
   position:               absolute;
   bottom:                 280px;
   left:                   0;
 }
 
 ul#thumbnails h4 {
-  position:               relative;
-  top:                    .5em;
+  bottom:                 245px;
 }
 
 ul#thumbnails li div {
@@ -176,7 +179,7 @@ ul#thumbnails li div a {
 
 
 #thumbnails div a, #summary, 
-#subnavigation, .pages, 
+#subnavigation, .pages, #data_sheet,  
 #facebox div, #facebox p, #facebox a, #facebox img {
   -moz-border-radius:     7px;
   -webkit-border-radius:  7px;  
@@ -220,17 +223,17 @@ body.videos #thumbnails img {
 #go_to_selection a {
 	width:                  80px;
 	height:                 80px;
-	padding-left:           125px;
+	padding:                13px 0 0 125px;
 	position:               absolute;
-	top:                    20px;
-	right:                  60px;
+  top:                    20px;
+  right:                  60px;
 }
 /* /Link to Selection */
 
 
 /* Paging */
 .pages {
-  clear:both;
+  clear:                  both;
   padding:                1px 20px 5px 20px;
   margin:                 5px 0;
 }
@@ -254,7 +257,7 @@ body.videos #thumbnails img {
 
 .second {
   position:               relative;
-  bottom:                 35px;
+  bottom:                 20px;
 }
 /* /Paging */
 
@@ -366,7 +369,7 @@ body.videos #thumbnails img {
 }
 
 #cart_items {
-  	width:                  20.25em;
+	width:                  20.25em;
 	min-height:             405px;
 	height:                 25.3em;
 	border:                 2px solid;
@@ -521,11 +524,12 @@ body#pictures_sent #order_form p {
 /* Specific for global search form */
 #global_search {
 	width:                  202px;
+	height:					        31px;
 	padding-left:           15px;
 	position:               absolute;
 	top:                    99px;
 	right:                  30px;
-	height:					31px;
+	z-index:                1;
 }
 
 #global_search fieldset {
