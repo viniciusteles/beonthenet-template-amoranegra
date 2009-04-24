@@ -1,23 +1,4 @@
-/*
-Cores utilizadas no site:
-
-Magenta	Claro:					    #f450a5;
-Magenta Médio:					    #dd137b;
-Magenta Escuro:					    #cb096d;
-
-Preto:							#000;
-Cinza Claro:					#efeeee;
-Cinza Médio:					#dededd;
-Cinza Escuro:					#666;
-
-Vermelho (erro)					#b01444;
-
-
-
-
-
-Color global attributes */
-
+/* Color global attributes */
 html {
 	background:           #dededd url(../images/bg.gif) repeat-x top left;
 }
@@ -170,7 +151,7 @@ ul#thumbnails a:hover label {
 
 
 /* Summary */
-#summary, #about_us, #data_sheet, body.application #main_content ul, #picture_description {
+#summary, #about_us, #data_sheet, body.application #main_content ul {
 	background-color:		#efeeee;
 }
 /* /Summary */
