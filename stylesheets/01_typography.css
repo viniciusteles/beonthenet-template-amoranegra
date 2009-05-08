@@ -357,7 +357,6 @@ span#searched_item {
 /* Text */
 .text h1 + p:first-letter {
   font-size:              150%;
-  line-height:            2em;
 }
 
 .text #main_content strong {
