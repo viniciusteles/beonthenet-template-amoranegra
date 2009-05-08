@@ -28,6 +28,10 @@ ul#thumbnails li {
 	margin:                 1px 2px;
 }
 
+body.videos #thumbnails img {
+  width:expression(this.width > 240 ? "240px" : true);
+}
+
 #all_pictures li label, #all_pictures li a, 
 #cart_items label, #cart_items a {
 	bottom:                 0;	

@@ -146,7 +146,7 @@ ul#thumbnails {
 ul#thumbnails li {
 	float:                  left;
 	width:                  260px;
-  margin:                 0px 30px 20px 30px;
+  margin:                 0px 30px 20px;
   position:               relative;
 }
 .pictures#index ul#thumbnails li, 
@@ -194,7 +194,7 @@ ul#thumbnails li div a label {
 }
 
 body.videos #thumbnails img {
-  width:                  240px;
+  max-width:                  240px;
 }
 /* /Thumbnails */
 
