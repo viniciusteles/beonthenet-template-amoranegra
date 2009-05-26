@@ -201,7 +201,7 @@ body.videos #thumbnails img {
 
 /* Summary */
 #summary, #about_us, #data_sheet, body.application #main_content ul {
-	padding:                20px;
+	padding:                20px 70px;
 	margin-bottom:          20px;
 }
 
@@ -214,7 +214,15 @@ body.videos #thumbnails img {
 	min-height:             4.5em;
 	height:                 auto !important;
 	height:                 4.5em;
-	padding-right:          20em;
+}
+
+#gallery #summary, #picture #summary {
+  padding-right:          20em;
+}
+
+.text #summary {
+  margin-right:           -170px;
+  margin-left:            -170px;
 }
 /* /Summary */
 
@@ -654,13 +662,6 @@ body > #facebox {
   width:                  560px;
   padding-right:          200px;
   padding-left:           200px;
-}
-
-.text #summary {
-  padding-right:          170px;
-  padding-left:           170px;
-  margin-right:           -170px;
-  margin-left:            -170px;
 }
 
 .text #main_content p {
