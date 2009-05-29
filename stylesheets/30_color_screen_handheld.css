@@ -456,17 +456,19 @@ body.application #main_content ul {
 
 
 /* Footer */
-#footer em{
-	color:					#fff;
-}
-
-#footer p {
-	margin-bottom:          .5em;	
-	color:					#fff;
+#footer em, #footer p, 
+#footer h1, #footer h1 a, 
+#beonthenet img {
+	color:					        #FFF;
 }
 
 #footer p strong, #footer h6 {
-	color:					#dededd;
+	color:					        #DEDEDD;
+}
+
+#beonthenet:hover img, 
+#improveit:hover {
+  color:                  #DD137B;
 }
 /* /Footer */
 

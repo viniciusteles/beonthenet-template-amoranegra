@@ -348,7 +348,24 @@ span#searched_item {
 /* Footer */
 #footer * {
   text-align:             right;
-  line-height:						2em;  
+  line-height:						1.25em;
+}
+
+#footer h1, #footer h2, #footer h6 {
+  font-weight:            normal;
+  font-size:							70%;
+  font-variant:           normal;
+}
+#footer h1 a {
+  font-weight:            normal;
+}
+
+#footer h1 a {
+  text-decoration:        none;
+}
+#footer #beonthenet, 
+#footer #improveit {
+  text-decoration:        underline;
 }
 /* /Footer */
 
