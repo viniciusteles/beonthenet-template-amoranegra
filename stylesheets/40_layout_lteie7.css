@@ -8,10 +8,6 @@ hr {
   margin:                 -8px 0 -7px 0;
 }
 
-#header li {
-/*  padding:                0;*/
-}
-
 
 /* Vertically centering images */
 ul#thumbnails li div a {
@@ -42,10 +38,6 @@ ul#thumbnails li div img {
 #all_pictures label, #cart_items label, 
 #selected_pictures label {
 	filter:                 alpha(opacity=70);
-}
-
-body#selection h2#selection_size {
-  right:                  34.75em;
 }
 
 .moved_to_cart {

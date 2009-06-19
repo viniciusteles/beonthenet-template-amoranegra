@@ -9,7 +9,6 @@ label, img  {
 	margin:                 0;
 }
 
-
 body {
   width:                  960px;
 	padding:                0;
@@ -448,7 +447,7 @@ body.videos #thumbnails img {
 
 body#selection #selection_size {
   float:                  right;
-  margin-right:           -21.55em;
+  margin-right:           -23.55em;
 	position:               relative;
 	top:                    1.0em;
   right:                  36em;
