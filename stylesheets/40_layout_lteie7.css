@@ -37,11 +37,6 @@ label {
   margin-left:            16.5em;
 }
 
-#submit_button {
-	width:                  12em;
-	margin-left:            43%;
-}
-
 /* IE7: */
 *:first-child + html #facebox a {
   right:                  -18px;

@@ -12,3 +12,9 @@ ul#thumbnails li div span.ie {
 ul#thumbnails li div img {
 	vertical-align:         middle;
 }
+
+#submit_button {
+	width:                  12em;
+	margin-left:            43%;
+}
+
