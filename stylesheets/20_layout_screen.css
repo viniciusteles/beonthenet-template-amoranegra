@@ -330,6 +330,8 @@ body.videos #thumbnails img {
 #big_picture label {
 	width:                  13%;
 	padding:                3px;
+	border-width:           1px;
+  border-style:           solid;
 	position:               absolute;
 	bottom:                 -6px;
 	right:                  43.5%;
@@ -452,6 +454,8 @@ body#selection #selection_size {
 body#selection #selection_size label {
 	display:                inline;
 	padding:                .34em 1.5em .35em .8em;
+	border-width:           2px;
+	border-style:           solid;
 	margin-left:            3em;
 	visibility:             visible;
 }
@@ -528,6 +532,7 @@ button {
   padding:                .2em .5em;
 	border:                 0px;
   margin:                 auto;
+	cursor:					        pointer;
 }
 button:active {
 	border-style:           inset;
@@ -570,6 +575,7 @@ body#pictures_sent #order_form p {
 
 #global_search fieldset {
 	padding-right:          10px;
+	margin-top:				      2px;
 }
 
 #global_search #search_type {

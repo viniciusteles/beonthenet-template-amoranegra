@@ -1,269 +1,243 @@
+/*
+#B01444   Rosa quase vermelho, para erros
+
+#DB096D   Rosa-choque escuro
+#DD137B   Rosa-choque claro
+#F450A5   Rosa claro
+
+#000000   Preto
+#333333   Cinza quase preto
+#666666   Cinza escuro
+#8F8F8F   Cinza médio
+#CCCCCC   Cinza claro
+#F1F1F1   Cinza quase branco
+#FFFFFF   Branco
+*/
+
 /* Color global attributes */
 html {
-	background:           #dededd url(../images/bg.gif) repeat-x top left;
-}
-html {
-  background:             #000;
+  background:         #000;
 }
   
 html * {
-  color:				  #000;
-}
-html * {
-  color:                  #CCC;
-}
+  color:              #CCC;
+} 
 
-body {
-	background:           url(../images/bg-bottom.gif) repeat-x bottom left;  
+a, a:visited {
+  color:              #DD137B;
 }
-body {
-  background:             none;
-}
-
-a {
-  color:                  #dd137b;
-}
-
-a:visited {
-  color:                  #dd137b;
-}
-
 a:focus, a:hover, a:active {
-  color:                  #f450a5;
+  color:              #F450A5;
 }
 
 h1 {
-  color:                  #CCC;
+  color:              #CCC;
 }
 #gallery h1, #search h1 {
-  color:                  #666;
+  color:              #666;
 }
 #gallery h1 em, #search h1 em {
-  color:                  #CCC;
+  color:              #CCC;
 }
 
 h2 {
-  color:                  #666;
+  color:              #666;
 }
 
 h3, h3 a, h3 a:visited {
-  color:                  #dd137b;
+  color:              #DD137B;
 }
 
 h4, h4 a, h4 a:visited {
-  color:                  #9e9b99;
+  color:              #8F8F8F;
 }
-
-h4 a:focus, h4 a:hover, h4 a:active {
-  text-decoration:    	  underline;
-}
-
 /* /Color global attributes */
 
 
 /* Header tabbed menu */
 #logo_screen a, 
 #logo_screen a img {
-  color:                  #DD137B;
+  color:              #DD137B;
 }
 #logo_screen a:hover, 
 #logo_screen a:hover img {
-  color:                  #F450A5;
+  color:              #F450A5;
 }
 
 #header li a, #header li a:visited, #header li a:active {
-	color:					#fff;
+	color:					    #FFF;
 }
 
 #header li a:hover, #header li.current a, #header li.current a:visited {	
-	color:                  #000;
-	background:             #DD137B no-repeat center;
+	color:              #000;
+	background:         #DD137B;
 }
 /* /Header tabbed menu */
 
 
 /* Main content top segment */
 #subnavigation {
-  background:             #FDFEFD;
+  background:         #F1F1F1;
 }
 #subnavigation a:link {
-  color:                  #555;
+  color:              #666;
 }
 #subnavigation a:hover {
-  color:                  #DC177B;
+  color:              #DD137B;
 }
 
 #go_back_to_thumbnails {
-	background:             transparent url(../images/arrow_left.gif) no-repeat 0px;
+	background:         transparent url(../images/arrow_left.gif) no-repeat 0px;
 }
-
 #go_back_to_thumbnails:hover {
-	background:             transparent url(../images/arrow_left_hover.gif) no-repeat 0px;
+	background-image:   url(../images/arrow_left_hover.gif);
 }
 
 #go_to_gallery {
-	background:             transparent url(../images/gallery_album.gif) no-repeat left center;
+	background:         transparent url(../images/gallery_album.gif) no-repeat left;
 }
 
 #see_data_sheet {
-	background:             transparent url(../images/arrow_down.gif) no-repeat left center;
+	background:         transparent url(../images/arrow_down.gif) no-repeat left;
 }
-
 #see_data_sheet:hover {
-	background:             transparent url(../images/arrow_down_hover.gif) no-repeat left center;
+	background-image:   url(../images/arrow_down_hover.gif);
 }
 /* /Main content top segment */
 
 
 /* Thumbnails */
 #thumbnails h3 a {
-  color:                  #9E9B99;
+  color:              #8F8F8F;
 }
 
 ul#thumbnails li div a {
-	background:             url(../images/thumb_box.png);
-}
-ul#thumbnails li div a {
-  background:             #E4E4E4;
-}
-
-ul#thumbnails li div a:visited {
-	background:             url(../images/thumb_box_visited.png);
+  background:         #CCC;
 }
 ul#thumbnails li div a:visited {
-  background:             #999;
+  background:         #8F8F8F;
 }
 ul#thumbnails li div a:hover {
-	background:             url(../images/thumb_box_hover.png);
-}
-ul#thumbnails li div a:hover {
-  background:             #F1F1F1;
+  background:         #F1F1F1;
 }
 
 
 ul#thumbnails a img, 
 #thumbnails label {
-	color:                  #908e8d;
+	color:              #8F8F8F;
 }
 
 ul#thumbnails a:hover img, 
 ul#thumbnails a:hover label {
-	color:                  #FFF;
+	color:              #FFF;
 }
 /* /Thumbnails */
 
 
 /* Summary */
-#summary, #about_us, #data_sheet, body.application #main_content ul {
-	background-color:		#efeeee;
+#summary, #about_us, #data_sheet {
+	background-color:		#F1F1F1;
 }
 /* /Summary */
 
 
 /* Link to Selection */
 #go_to_selection a {
-	background:             url(../images/select_pictures.gif) no-repeat top left;
+	background:         url(../images/select_pictures.gif) no-repeat top left;
 }
 #go_to_selection a:hover {
-	background:             url(../images/select_pictures_hover.gif) no-repeat top left;
+	background-image:   url(../images/select_pictures_hover.gif);
 }
 /* /Link to Selection */
 
 
 /* Paging */
 .pages {
-  background-color:		#efeeee;
-}
-.pages {
-  background:             #CCC;
+  background:         #CCC;
 }
 
 
 .pages a:visited {
-  color:                  #908e8d;
+  color:              #8F8F8F;
 }
 
 .pages a:hover {
-  color:                  #f450a5;
+  color:              #F450A5;
+}
+
+.pages a.previous, .pages a.next {
+  color:              #DB096D;  
+}
+.pages a.previous:hover, .pages a.next:hover {
+  color:              #F450A5;  
 }
 
 .pages a.previous {
-  background:             url(../images/arrow_left.gif) no-repeat left;
-  color:                  #cb096d;
+  background:         url(../images/arrow_left.gif) no-repeat left;
+}
+.pages a.previous:hover {
+  background-image:   url(../images/arrow_left_hover.gif);
 }
 
-.pages a.previous:hover {
-  background:             url(../images/arrow_left_hover.gif) no-repeat left;
-  color:                  #f450a5;
-}
 .pages a.next {
-  background:             url(../images/arrow_right.gif) no-repeat right;
-  color:                  #cb096d;
+  background:         url(../images/arrow_right.gif) no-repeat right;
 }
 .pages a.next:hover {
-  background:             url(../images/arrow_right_hover.gif) no-repeat right;
-  color:                  #f450a5;	
+  background-image:   url(../images/arrow_right_hover.gif);
 }
 
-
-
 .pages strong {
-  color:                  #cb096d;
+  color:              #DB096D;
 }
 /* /Paging */
 
 
 /* Data sheet */
-#data_sheet li {
-	color:                  #666;	
-}
-
 #data_sheet h2 {
-	color:                  #000;	
+	color:              #000;	
 }
 
 #data_sheet * {
-  color:                  #555;
+  color:              #666;
 }
 
 #data_sheet a:link {
-  color:                  #DC177B;
+  color:              #DD137B;
 }
 /* /Data sheet */
 
 
 /* Big picture, big video */
 #big_picture a, #big_video a {
-  color:                  #000;
+  color:              #000;
 }
 
 #big_picture a#previous span, #big_video a#previous span {
-	background:      url(../images/arrow_previous.gif) no-repeat center right;
+	background:         url(../images/arrow_previous.gif) no-repeat center right;
 }
 #big_picture a#previous:hover span, #big_video a#previous:hover span {
-	background:      url(../images/arrow_previous_hover.gif) no-repeat center right;
+	background-image:   url(../images/arrow_previous_hover.gif);
 }
 
 #big_picture #next span, #big_video #next span {
-	background:      url(../images/arrow_next.gif) no-repeat center left;
-
+	background:         url(../images/arrow_next.gif) no-repeat center left;
 }
 #big_picture a#next:hover span, #big_video a#next:hover span {
-	background:      url(../images/arrow_next_hover.gif) no-repeat center left;
+	background-image:   url(../images/arrow_next_hover.gif);
 }
 
 #big_picture img {
-  	color:                  #ebebeb;
-	border-color:           #ebebeb;
+	color:              #F1F1F1;
+	border-color:       #F1F1F1;
 }
 
 #big_picture label {
-  border:				  1px solid #ebebeb;
-  background:             #fff;
+  border-color:       #F1F1F1;
+  background:         #FFF;
 }
 
 #big_video label span {
-  background:             none;
+  background:         none;
 }
 /* /Big picture, big video */
 
@@ -271,59 +245,50 @@ ul#thumbnails a:hover label {
 /* Selection */
 body#selection #selection_size, 
 body#selection #selection_size label {
-	color:                  #DEDEDD;
+	color:              #000;
 }
-body#selection #selection_size {
-  color:                  #000;
-}
-
-#selection_size label {
-	color:				        	#000;	
-}
-
 
 #cart_items {
-	background:             #fff;
-	border-color:           #f5f5f4;
+	border-color:       #F1F1F1;
+	background:         #FFF;
 }
 
 #cart_items.instructions {
-	background:             #fff url(../images/selection_instructions.gif) no-repeat center center;	
+	background:         #FFF url(../images/selection_instructions.gif) no-repeat center;	
 }
 
 #all_pictures li label, #all_pictures li a, 
 #cart_items label, #cart_items a, 
 #selected_pictures label, #selected_pictures a {
-	background-color:       #fff;
+	background-color:   #FFF;
 }
 
 #all_pictures label, #cart_items label, 
 #selected_pictures label {
-  	color:                  #908e8d;	
+	color:              #8F8F8F;
 }
 
 #all_pictures a:hover, 
 #cart_items a:hover, 
 #selected_pictures a:hover {
-	background:             transparent url(../images/magnifying_glass.gif) no-repeat center center;
+	background:         transparent url(../images/magnifying_glass.gif) no-repeat center;
 }
 
 #selected_pictures a.remove_picture {
-	background:             none;
+	background:         none;
 }
 
 body#selection #selection_size label {
-	background-color:             #fff;
-	border:					2px solid #dededd;
-	color:					#000;
+	border-color:       #CCC;
+	background-color:   #FFF;
 }
 
 .go_to_checkout {
-  background:             transparent url(../images/shopping_cart.gif) no-repeat right center;
+  background:         transparent url(../images/shopping_cart.gif) no-repeat right;
 }
 
 .moved_to_cart {
-  opacity:                .3;
+  opacity:            .3;
 }
 
 a:hover label, 
@@ -331,129 +296,115 @@ body#checkout #selection_size label,
 body#pictures_sent #selection_size label,
 span#searched_item,  
 #search_result_count label {
-  color:                  #DC177B;
+  color:              #DD137B;
 }
 /* /Selection */
 
 
 /* Forms (contact, checkout, search) */
 label {
-	color:                  #908E8D;
+	color:              #8F8F8F;
 }
 
 input, textarea {
-	color:                  #666;
-	border-color:           #f5f5f4;
+	color:              #666;
+	border-color:       #F1F1F1;
 }
 
 #summary *, .pages a, 
 input, textarea, 
 #big_picture label {
-  color:                                                        #333;
+  color:              #333;
 }
 
-input:hover, textarea:hover {
-	border-color:           #f450a5;
-}
-
-input:active, input:focus,
-textarea:active, textarea:focus {
-	border-color:           #f450a5;
+input:hover, input:active, input:focus,
+textarea:hover, textarea:active, textarea:focus {
+	border-color:       #F450A5;
 }
 
 button {
-  	color:                  #fff;
-	background-color:       #dd137b;
-	cursor:					pointer;
+  color:              #FFF;
+	background-color:   #DD137B;
 }
 button:hover {
-	background-color:           #f450a5;
+	background-color:   #F450A5;
 }
 
 .submitting {
-	color:                  #fff;
-	background:             #908e8d url(../images/spinner_form.gif) no-repeat 95% center;
+	color:              #FFF;
+	background:         #8F8F8F url(../images/spinner_form.gif) no-repeat 95% center;
 }
-
 .submitting:hover {
-	background-color:             #908e8d;
+	background-color:   #8F8F8F;
 }
 
 .email_field_with_errors {
-	border-color:       #b01444;
+	border-color:       #B01444;
 }
 
 #submit_error {
-	background-color:       #b01444;
+	background-color:   #B01444;
 }
 
 #submit_success {
-	background-color:       #cb096d;
+	background-color:   #DB096D;
 }
 
 #submit_error, #submit_success {
-  color:                  #fff;
+  color:              #FFF;
 }
 
 /* Specific for global search form */
 #global_search {
-	background:             url(../images/search.gif) no-repeat left center;
-}
-
-#global_search fieldset {
-	margin-top:				2px;
-	
+	background:         url(../images/search.gif) no-repeat left;
 }
 
 #global_search #query {
-	color:                  #000;
-	border:					none;
+	color:              #000;
+	border:					    none;
 }
 
-#global_search #query:hover,#global_search #query:active,#global_search #query:focus {
-	color:                  #666;
-	border:					none;
+#global_search #query:hover, #global_search #query:active, #global_search #query:focus {
+	color:              #666;
+	border:					    none;
 }
 /* /Forms (contact, checkout, search) */
 
 
 /* Errors (404, 500, timeout, empty search results) */
 body.application #main_content h2 {
-	background:             url(../images/error_404.png) no-repeat center top;
-}
-
-body.application #main_content h3 {
-  color:                  #CB096D;
+	background:         url(../images/error_404.png) no-repeat top;
 }
 
 body#server_error #main_content h2 {
-	background-image:       url(../images/error_500.png);
+	background-image:   url(../images/error_500.png);
 }
 
 body#timeout #main_content h2 {
-	background-image:       url(../images/error_timeout.png);
+	background-image:   url(../images/error_timeout.png);
+}
+
+body.application #main_content h3 {
+  color:              #DD137B;
 }
 
 body.application #main_content ul {
-  background:             #000;
+  background:         #000;
 }
 /* /Errors (404, 500, timeout, empty search results) */
 
 
 /* Facebox */
 #facebox {
-	background:             none;
+	background:         none;
 }
 
 #facebox * {
-	background:             transparent url(../images/facebox_bg.gif) top left;
-}
-#facebox * {
-  background:             #FFF;
+  background:         #FFF;
 }
 
 #facebox div {
-  border-color:          #DC177B;
+  border-color:       #DD137B;
 }
 /* /Facebox */
 
@@ -462,20 +413,20 @@ body.application #main_content ul {
 #footer em, #footer p, 
 #footer h2, #footer h2 a, 
 #beonthenet img {
-	color:					        #FFF;
+	color:					    #FFF;
 }
 
 #footer p strong, #footer h6 {
-	color:					        #DEDEDD;
+	color:					    #CCC;
 }
 
 #beonthenet:hover img, 
 #improveit:hover {
-  color:                  #DD137B;
+  color:              #DD137B;
 }
 
 #footer h3 {
-  color:                  #666;
+  color:              #666;
 }
 /* /Footer */
 
@@ -484,25 +435,24 @@ body.application #main_content ul {
 /* Text */
 .text dt, 
 .text #main_content strong {
-  color:                  #FFF;
-  font-weight:				bold;
+  color:              #FFF;
 }
 
 .text table * {
-  border-color:           #ebebeb;
+  border-color:       #F1F1F1;
 }
 
 .text td span {
-  color:                  #666;
+  color:              #666;
 }
 
 pre {
-  background:             #222;
-  border-color:           #333;
+  border-color:       #333;
+  background:         #333;
 }
 
 code {
-  color:                  #F5F5F4;
-  background:             #222; 
+  color:              #F1F1F1;
+  background:         #333; 
 }
 /* /Text */

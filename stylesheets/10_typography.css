@@ -49,8 +49,9 @@ h4, h4 a {
   color:                  #9e9b99;
 }
 
-h3 a:focus, h3 a:hover {
-  text-decoration:        underline;
+h3 a:focus, h3 a:hover, 
+h4 a:focus, h4 a:hover, h4 a:active {
+  text-decoration:    	  underline;
 }
 
 h5 {
@@ -400,8 +401,9 @@ span#searched_item {
   font-size:              150%;
 }
 
+.text dt, 
 .text #main_content strong {
-  font-weight:            normal;
+  font-weight:            bold;
 }
 
 .text cite {
