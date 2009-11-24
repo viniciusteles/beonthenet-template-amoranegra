@@ -84,18 +84,19 @@ img {
 
 #header ul {
   width:                  600px;
+  margin:                 0;
   position:               absolute;
-  top:                    15px;
-  right:                  20px;
+  top:                    35px;
+  right:                  15px;
 }
 
 #header li {
   float:                  left;
-  height:						      33px;
-  margin:                 0 8px;
+  margin:                 0 0 0 16px;
 }
 
 #header li a {
+  display:                block;
   padding:                6px;
 }
 /* /Header tabbed menu */
