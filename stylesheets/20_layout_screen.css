@@ -83,21 +83,20 @@ img {
 }
 
 #header ul {
-  height:						      33px;
+  width:                  600px;
   position:               absolute;
-  top:					 		      20px;
+  top:                    15px;
   right:                  20px;
-  overflow:               hidden;
 }
 
 #header li {
-  display:                inline;
+  float:                  left;
   height:						      33px;
-  margin:						      15px 5px;
+  margin:                 0 8px;
 }
 
 #header li a {
-  padding:                		6px;
+  padding:                6px;
 }
 /* /Header tabbed menu */
 

@@ -72,17 +72,17 @@ h6 {
 }
 
 #slogan {
-  font-style:              normal;
-  font-size:                90%;
+  font-style:             normal;
+  font-size:              90%;
 }
 
-#header li {
-  	font-size:             	18px;
+#header li, #header li a {
+  line-height:            1.5em;
 }
 
 #header li a {
-  	text-decoration:        none;	
-	font-size:				18px;
+  text-decoration:        none;	
+  font-size:              125%;
 }
 /* /Header tabbed menu */
 
