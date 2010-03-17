@@ -819,11 +819,15 @@ pre {
   margin-right:       1.5em;
 }
 
-#sidebar {
+.blog #main_content #sidebar {
   width:              157px;
   padding:            10px 30px;
   position:           static;
   -moz-border-radius: 7px;
   -webkit-border-radius:7px;
+}
+
+.pagenav, #wp-calendar {
+  display:            none;
 }
 /* /Blog */
