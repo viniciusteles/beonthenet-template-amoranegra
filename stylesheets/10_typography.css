@@ -453,3 +453,18 @@ p code {
   font-size:              80%;
 }
 /* /Text */
+
+
+/* Blog */
+p {
+  font-size:          80%;
+}
+
+.title a {
+  font-size:          110%;
+}
+
+#sidebar h3 a {
+  font-size:          100%;
+}
+/* /Blog */

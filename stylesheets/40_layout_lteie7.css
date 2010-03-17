@@ -61,3 +61,15 @@ label {
 *:first-child + html #facebox a {
   right:                  -18px;
 }
+
+
+/* Blog */
+#posts, #sidebar {
+  display:            inline;
+  zoom:               1;
+}
+
+#posts {
+  margin-right:       43px;
+}
+/* /Blog */

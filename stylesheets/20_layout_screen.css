@@ -794,3 +794,36 @@ pre {
   margin-top:             -.8em;
 }
 /* /Text */
+
+
+/* Blog */
+#posts, #sidebar {
+  display:            inline-block;
+  vertical-align:     top;
+}
+
+#posts {
+  margin-right:       38px;
+}
+
+.title {
+  padding:            15px 10px 0;
+  margin:             0 !important;
+}
+.pre-post {
+  padding:            5px 10px;
+  margin-bottom:      20px;
+}
+
+.tags a {
+  margin-right:       1.5em;
+}
+
+#sidebar {
+  width:              157px;
+  padding:            10px 30px;
+  position:           static;
+  -moz-border-radius: 7px;
+  -webkit-border-radius:7px;
+}
+/* /Blog */

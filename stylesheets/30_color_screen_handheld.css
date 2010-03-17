@@ -456,3 +456,29 @@ code {
   background:         #333; 
 }
 /* /Text */
+
+
+/* Blog */
+.title a {
+  text-shadow:        0 1px 0 #F1F1F1;
+}
+
+.title {
+  background:         #CCC url(../images/title_blog_post.png) no-repeat center top;
+}
+.pre-post {
+  background:         #CCC;
+}
+
+.pre-post strong {
+  color:              #000;
+}
+
+.note {
+  border-color:       #555;
+}
+
+.tags h3 {
+  color:              #CCC;
+}
+/* /Blog */
