@@ -146,6 +146,53 @@ body.application #main_content h2 {
 /* /Main content top segment */
 
 
+/* Flickr */
+#main_content h5 {
+  padding:            0;
+  margin:             -5em 0 3.9em;
+}
+
+#main_content h5 a, #big_picture cite a {
+  display:            inline-block;
+  width:              37px;
+  height:             14px;
+  overflow:           hidden;
+  vertical-align:     bottom;
+}
+
+#thumbnails cite {
+  display:            block;
+  width:              20px;
+  height:             15px;
+  margin:             0;
+  position:           absolute;
+  right:              0;
+  bottom:             245px;
+  overflow:           hidden;
+}
+
+#thumbnails cite a {
+  display:            inline-block;
+  padding-top:        6px;
+}
+
+#big_picture #view_on_flickr, 
+#big_picture cite a {
+  position:           static;
+}
+
+#big_picture cite {
+  position:           absolute;
+  top:                -22px;
+  right:              10px;
+}
+
+body #footer h6 {
+  margin:             3em 0 0;
+}
+/* /Flickr */
+
+
 /* Thumbnails */
 ul#thumbnails {
   margin-right:           -30px;

@@ -106,6 +106,30 @@ h4, h4 a, h4 a:visited {
 /* /Main content top segment */
 
 
+/* Flickr */
+#main_content h5 a, #big_picture cite a {
+  background:         transparent url(../images/flickr_logo.png) no-repeat left;
+}
+#big_picture cite a {
+  background-image:   url(../images/flickr_logo_subnavigation.png);
+}
+
+#thumbnails cite a {
+  background:         transparent url(../images/flickr.png) no-repeat left 6px;
+}
+#thumbnails cite a:hover {
+  background-image:   url(../images/flickr_hover.png);
+}
+
+body #footer h6 {
+  color:              #777;
+}
+body #footer h6 em {
+  color:              #555;
+}
+/* /Flickr */
+
+
 /* Thumbnails */
 #thumbnails h3 a {
   color:              #8F8F8F;
