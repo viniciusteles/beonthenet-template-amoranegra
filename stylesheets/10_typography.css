@@ -100,7 +100,8 @@ h6 {
 }
 
 #main_content h5 a, #big_picture cite a {
-  text-indent:        38px;
+  font-size:          100%;
+/*  text-indent:        38px;*/
 }
 #main_content h5 a:hover {
   text-decoration:    underline;
