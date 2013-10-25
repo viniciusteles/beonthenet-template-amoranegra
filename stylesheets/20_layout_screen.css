@@ -89,6 +89,10 @@ img {
   padding:                          9px;
   color:                            #FFF;
   background:                       rgba(0,0,0,.8);
+  opacity:                          .4;
+}
+.social_media:hover {
+  opacity:                          1;
 }
 
 .social_media section {
