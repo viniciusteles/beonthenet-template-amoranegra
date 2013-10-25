@@ -22,13 +22,13 @@ ul#thumbnails li div img {
 	vertical-align:         middle;
 }
 
-.second {
+.second.pages {
   position:               relative;
   bottom:                 20px;
 }
 
 
-.second {
+.second.pages {
   bottom:                 40px;
 }
 

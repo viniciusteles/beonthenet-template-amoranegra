@@ -93,6 +93,7 @@ img {
 
 .social_media section {
   display:                          inline-block;
+  vertical-align:                   middle;
   width:                            49.5%;
 }
 
@@ -106,20 +107,19 @@ img {
   color:                            #DDD;
 }
 
-.social_media iframe {
-  vertical-align:                   middle;
-}
-
 @media screen and (min-width:1024px) {
   .social_media {
-/*    padding-right:                  60px;*/
-/*    padding-left:                   60px;*/
     padding-right:                  30px;
     padding-left:                   30px;
   }
   .social_media section {
     width:                          49.75%;
   }
+}
+
+.social_sharing > iframe, .social_sharing > div {
+  display:                          inline-block;
+  vertical-align:                   middle !important;
 }
 
 .social_links {
@@ -404,7 +404,7 @@ body.videos #thumbnails img {
   padding-right:          12px;
 }
 
-.second {
+.second.pages {
   position:               relative;
   bottom:                 20px;
 }
