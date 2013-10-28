@@ -89,16 +89,16 @@ img {
   padding:                          9px;
   color:                            #FFF;
   background:                       rgba(0,0,0,.8);
-  opacity:                          .4;
-}
-.social_media:hover {
-  opacity:                          1;
 }
 
 .social_media section {
   display:                          inline-block;
   vertical-align:                   middle;
   width:                            49.5%;
+  opacity:                          .6;
+}
+.social_media section:hover {
+  opacity:                          1;
 }
 
 .social_media em {
@@ -128,6 +128,7 @@ img {
 
 .social_links {
   text-align:                       right;
+  height:                           32px;
 }
 
 .social_links a {
