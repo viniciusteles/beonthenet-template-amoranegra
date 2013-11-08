@@ -163,9 +163,9 @@ img {
 #big_picture #social_sharing > div:last-child {
   margin:                           27px 0 0;
 }
-#big_picture #social_sharing div a, #big_video #social_sharing div a {
-  position:                         relative !important;
-  top:                              0;
+#big_picture #social_sharing div img, #big_video #social_sharing div img {
+  padding:                          0;
+  border:                           none;
 }
 /* /Big picture social sharing */
 
@@ -467,7 +467,8 @@ body.videos #thumbnails img {
 	position:               relative;
 }
 
-#big_picture a, #big_video a {
+#big_picture #previous, #big_picture #next, 
+#big_video #previous, #big_video #next {
 	width:                  24px;
   position:               absolute;
 	top:                    82px;
@@ -480,7 +481,8 @@ body.videos #thumbnails img {
   right:                  3px;
 }
 
-#big_picture a span, #big_video a span {
+#big_picture #previous span, #big_picture #next span, 
+#big_video #previous span, #big_video #next span {
 	width:                  101%;
 	height:                 60px;
 	position:               absolute;
