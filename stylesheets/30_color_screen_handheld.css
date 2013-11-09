@@ -237,41 +237,6 @@ ul#thumbnails a:hover label {
 /* /Data sheet */
 
 
-/* Big picture, big video */
-#big_picture a, #big_video a {
-  color:              #000;
-}
-
-#big_picture a#previous span, #big_video a#previous span {
-	background:         url(../images/arrow_previous.gif) no-repeat center right;
-}
-#big_picture a#previous:hover span, #big_video a#previous:hover span {
-	background-image:   url(../images/arrow_previous_hover.gif);
-}
-
-#big_picture #next span, #big_video #next span {
-	background:         url(../images/arrow_next.gif) no-repeat center left;
-}
-#big_picture a#next:hover span, #big_video a#next:hover span {
-	background-image:   url(../images/arrow_next_hover.gif);
-}
-
-#big_picture img {
-	color:              #F1F1F1;
-	border-color:       #F1F1F1;
-}
-
-#big_picture label {
-  border-color:       #F1F1F1;
-  background:         #FFF;
-}
-
-#big_video label span {
-  background:         none;
-}
-/* /Big picture, big video */
-
-
 /* Selection */
 body#selection #selection_size, 
 body#selection #selection_size label {
